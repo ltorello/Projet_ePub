@@ -1,0 +1,75 @@
+body {
+	font-family : Arial, Garamond, Serif, Sansserif, monospace;
+	margin : 2%;
+}
+
+.cover {
+	text-indent:0;
+	text-align:center;
+} 
+
+.image {
+	max-width: 75%;
+	height: auto;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.figure {
+	text-align :center;
+	font-size : 0.5em
+}
+
+.titre{
+	font-size : 1.5em;
+	text-align : right;
+}
+
+.subtitre{
+	font-size : 1em;
+	text-align : right;
+	font-style : italic;
+}
+
+.auteurs {
+	font-size : 1em;
+	text-align : right;
+	margin-top : 5%;
+}
+
+p {
+	font-size : 1em;
+	text-align : justify;
+	line-height : 1.4em;
+	margin-top: 1.5em;
+  	margin-bottom: 1.5em;
+  	margin-right: 1.5em;
+  	margin-left: 1.5em;
+
+}
+
+h1 {
+	font-size : 2em;
+	text-decoration : underline;
+  	margin-left: 0.8em;
+}
+
+h2 {
+	font-size : 1.3em;
+	margin-bottom : 0.5em;
+	margin-left: 1.2em;
+	margin-right: 1.5em;
+}
+
+.note_bdp {
+	font-size : 0.5em;
+	text-align : justify;
+	margin-right: 5em;
+  	margin-left: 1.5em;
+}
+
+.der_para_page {
+	margin-bottom : 1.5em;
+	border-bottom : 1px solid black;
+ }

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="2.0" unique-identifier="BookId" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:language>fr-FR</dc:language>
+    <dc:title>Réinventer les comportements de mobilité</dc:title>
+    <meta content="1.8.0" name="Sigil version"/>
+    <dc:date opf:event="modification" xmlns:opf="http://www.idpf.org/2007/opf">2022-02-26</dc:date>
+    <dc:identifier id="BookId" opf:scheme="UUID">urn:uuid:e680514a-a8fb-42e5-aac7-3e73ac837ecd</dc:identifier>
+  </metadata>
+  <manifest>
+    <item id="NumerosParus.xhtml" href="Text/NumerosParus.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="Couverture.xhtml" href="Text/Couverture.xhtml" media-type="application/xhtml+xml"/>
+    <item id="TDM.xhtml" href="Text/TDM.xhtml" media-type="application/xhtml+xml"/>
+    <item id="RefBiblio.xhtml" href="Text/RefBiblio.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Intro.xhtml" href="Text/Intro.xhtml" media-type="application/xhtml+xml"/>
+    <item id="x4eDeCouverture.xhtml" href="Text/4eDeCouverture.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Lausanne.xhtml" href="Text/Lausanne.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Lisbonne.xhtml" href="Text/Lisbonne.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Ljubjana.xhtml" href="Text/Ljubjana.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Milan.xhtml" href="Text/Milan.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Prague.xhtml" href="Text/Prague.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Rotterdam.xhtml" href="Text/Rotterdam.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Vienne.xhtml" href="Text/Vienne.xhtml" media-type="application/xhtml+xml"/>
+    <item id="EtudeComparative.xhtml" href="Text/EtudeComparative.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Conclusion.xhtml" href="Text/Conclusion.xhtml" media-type="application/xhtml+xml"/>
+    <item id="InfosFondation.xhtml" href="Text/InfosFondation.xhtml" media-type="application/xhtml+xml"/>
+    <item id="mafeuille.css" href="Styles/mafeuille.css" media-type="text/css"/>
+    <item id="PageGarde.xhtml" href="Text/PageGarde.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Copenhague.xhtml" href="Text/Copenhague.xhtml" media-type="application/xhtml+xml"/>
+    <item id="couverture.JPG" href="Images/couverture.JPG" media-type="image/jpeg"/>
+    <item id="Copenhague1.JPG" href="Images/Copenhague1.JPG" media-type="image/jpeg"/>
+    <item id="Lausanne1.JPG" href="Images/Lausanne1.JPG" media-type="image/jpeg"/>
+    <item id="Lisbonne1.JPG" href="Images/Lisbonne1.JPG" media-type="image/jpeg"/>
+    <item id="Lisbonne2.JPG" href="Images/Lisbonne2.JPG" media-type="image/jpeg"/>
+    <item id="Lu1.JPG" href="Images/Lu1.JPG" media-type="image/jpeg"/>
+    <item id="Lu2.JPG" href="Images/Lu2.JPG" media-type="image/jpeg"/>
+    <item id="Milan1.JPG" href="Images/Milan1.JPG" media-type="image/jpeg"/>
+    <item id="Milan2.JPG" href="Images/Milan2.JPG" media-type="image/jpeg"/>
+    <item id="Milan3.JPG" href="Images/Milan3.JPG" media-type="image/jpeg"/>
+    <item id="Prague1.JPG" href="Images/Prague1.JPG" media-type="image/jpeg"/>
+    <item id="Prague2.JPG" href="Images/Prague2.JPG" media-type="image/jpeg"/>
+    <item id="Prague3.JPG" href="Images/Prague3.JPG" media-type="image/jpeg"/>
+    <item id="Ro1.JPG" href="Images/Ro1.JPG" media-type="image/jpeg"/>
+    <item id="Vienne1.JPG" href="Images/Vienne1.JPG" media-type="image/jpeg"/>
+    <item id="Vienne2.JPG" href="Images/Vienne2.JPG" media-type="image/jpeg"/>
+    <item id="x4e.JPG" href="Images/4e.JPG" media-type="image/jpeg"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="Couverture.xhtml"/>
+    <itemref idref="PageGarde.xhtml"/>
+    <itemref idref="TDM.xhtml"/>
+    <itemref idref="RefBiblio.xhtml"/>
+    <itemref idref="Intro.xhtml"/>
+    <itemref idref="Copenhague.xhtml"/>
+    <itemref idref="Lausanne.xhtml"/>
+    <itemref idref="Lisbonne.xhtml"/>
+    <itemref idref="Ljubjana.xhtml"/>
+    <itemref idref="Milan.xhtml"/>
+    <itemref idref="Prague.xhtml"/>
+    <itemref idref="Rotterdam.xhtml"/>
+    <itemref idref="Vienne.xhtml"/>
+    <itemref idref="EtudeComparative.xhtml"/>
+    <itemref idref="Conclusion.xhtml"/>
+    <itemref idref="InfosFondation.xhtml"/>
+    <itemref idref="NumerosParus.xhtml"/>
+    <itemref idref="x4eDeCouverture.xhtml"/>
+  </spine>
+</package>
